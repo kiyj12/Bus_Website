@@ -76,15 +76,64 @@ nav ul li a:hover{
   top: 4px;
   margin: 0px;
   padding: 30px;
-  height: 100px;
+  height: 60px;
   width: 100%;
 
-  background-color: rgb(177, 252, 252);
+  background-color: rgb(193, 233, 203);
 
 
   font-size: 15px;
   font-weight: bold;
   color: black;
   text-align: center;
-  line-height: 43px;
+  line-height: 32px;
+}
+
+.member{
+  width: 76%;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.member img{
+  width: 280px;
+  border-radius: 70%;
+  overflow: hidden;
+
+  position: relative;
+  left: 40px;
+}
+
+#membername{
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 50px;
+  position: relative;
+  top: -5px;
+}
+#memone{
+  
+  background-color: blueviolet;
+  position: relative;
+  top: 150px;
+  
+}
+#memtwo{
+
+  position: relative;
+  top: 300px;
+}
+#memtwo p{
+  position: relative;
+  left: 400px;
+  top: -250px;
+  line-height: 40px;
+}
+
+#memthree{
+  
+  background-color: rgb(171, 226, 43);
+  position: relative;
+  top: 450px;
+  
 }
