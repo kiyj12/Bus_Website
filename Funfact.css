@@ -5,7 +5,6 @@
 body {overflow-x:hidden; overflow-y:auto;}
 
 body{
-    background-color: #EEEEEE;
     color: white;
     margin: 0;
     padding: 0;
@@ -78,8 +77,7 @@ section {
     top: 130px;
 }
 footer{
-    background-color: black;
-    padding: 20px;
+    padding: 60px;
 }
 
 .intro {
@@ -90,9 +88,9 @@ footer{
     font-family: 'Stylish', sans-serif;
 }
 .fun1 {
-    margin: 0 auto;
+    margin: 40px;
     width: 1300px;
-    height: 70px;
+    height: 50px;
     padding: 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px;
@@ -117,11 +115,13 @@ footer{
     text-align: center;
     font-size: 40px;
     color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
 }
 .fun2 {
-    margin: auto;
+    margin: 40px;
     width: 1300px;
-    height: 70px;
+    height: 50px;
     padding: 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px;
@@ -140,34 +140,256 @@ footer{
     text-align: center;
     font-size: 40px;
     color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
 }
 .fun3 {
-    margin: auto;
+    margin: 40px;
     width: 1300px;
-    height: 70px;
+    height: 50px;
     padding: 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px;
     background: linear-gradient( 90deg, white 50%, rgb(6, 162, 203) 50% );
     border: 5px solid rgb(6, 162, 203);
 }
+.content3 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(6, 162, 203);
+}
+.main3 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
+}
 .fun4 {
-    margin: auto;
+    margin: 40px;
     width: 1300px;
-    height: 70px;
+    height: 50px;
     padding: 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px;
     background: linear-gradient( 90deg, rgb(33, 133, 89) 50%, white 50% );
     border: 5px solid rgb(33, 133, 89);
 }
+.content4 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(33, 133, 89);
+}
+.main4 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
+}
 .fun5 {
-    margin: auto;
+    margin: 40px;
     width: 1300px;
-    height: 70px;
+    height: 50px;
     padding: 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px;
     background: linear-gradient( 90deg, white 50%, rgb(208, 198, 177) 50% );
     border: 5px solid rgb(208, 198, 177);
+}
+.content5 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(208, 198, 177);
+}
+.main5 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
+}
+.fun6 {
+    margin: 40px;
+    width: 1300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    background: linear-gradient( 90deg, rgb(102, 167, 197) 50%, white 50%);
+    border: 5px solid rgb(102, 167, 197);
+}
+.content6 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(102, 167, 197);
+}
+.main6 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
+}
+.fun7 {
+    margin: 40px;
+    width: 1300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    background: linear-gradient( 90deg, white 50%, rgb(221, 30, 47) 50% );
+    border: 5px solid rgb(221, 30, 47);
+}
+.content7 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color:rgb(221, 30, 47)
+}
+.main7 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
+}
+.fun8 {
+    margin: 40px;
+    width: 1300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    background: linear-gradient( 90deg, rgb(235, 176, 53) 50%, white 50% );
+    border: 5px solid rgb(235, 176, 53);
+}
+.content8 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(235, 176, 53);
+}
+.main8 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
+}
+.fun9 {
+    margin: 40px;
+    width: 1300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    background: linear-gradient( 90deg, white 50%, rgb(6, 162, 203) 50% );
+    border: 5px solid rgb(6, 162, 203);
+}
+.content9 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(6, 162, 203);
+}
+.main9 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
+}
+.fun10 {
+    margin: 40px;
+    width: 1300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    background: linear-gradient( 90deg, rgb(33, 133, 89) 50%, white 50% );
+    border: 5px solid rgb(33, 133, 89);
+}
+.content10 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(33, 133, 89);
+}
+.main10 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
+}
+.fun11 {
+    margin: 40px;
+    width: 1300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    background: linear-gradient( 90deg, white 50%, rgb(208, 198, 177) 50% );
+    border: 5px solid rgb(208, 198, 177);
+}
+.content11 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(208, 198, 177);
+}
+.main11 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
+}
+.fun12 {
+    margin: 40px;
+    width: 1300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+    background: linear-gradient( 90deg, rgb(102, 167, 197) 50%, white 50%);
+    border: 5px solid rgb(102, 167, 197);
+}
+.content12 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(102, 167, 197);
+}
+.main12 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -2px black;
+    font-weight: bold;
 }
