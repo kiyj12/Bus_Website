@@ -1,0 +1,315 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {overflow-x:hidden; overflow-y:auto;}
+
+body{
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-family: 'Hack';
+}
+
+header{
+  position: fixed;
+  top:0;
+  left:0px;
+  margin: 0px;
+  height: 130px;
+  width: 100%;
+  z-index : 1;
+
+  background-color: white;
+}
+
+#home{
+  margin : 0 auto;
+  padding: 0;
+  position: relative;
+  top: 18px;
+  left: 40px;
+
+  width: 153px;
+  height: 100px; 
+
+}
+
+nav{
+  width: 1060px;
+  height: 60px;
+  margin: 0 auto;
+  position: fixed;
+  top: 35px;
+  left: 340px;
+
+}
+nav ul{
+  margin: 0;
+}
+nav ul li{
+  padding: 0 45px;
+
+  list-style: none;
+  float: left;
+  line-height: 60px;
+  text-align: center;
+  font-size: 21px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+nav ul li a:hover{
+  font-weight: bold;
+  color: darkblue;
+}
+
+
+section {
+  background-color: white;
+  padding: 0px;
+  color: black;
+
+  position: relative;
+  top: 130px;
+}
+
+.contents{
+  margin: 0 auto;
+  text-align: center;
+  height: 600px;
+  width: 100%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url("https://t1.daumcdn.net/cfile/tistory/99B7424E5C19B8592F");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+.first_background{
+  position: relative;
+  top: 160px;
+  left: 0px;
+  margin: 0px;
+  padding: 30px;
+  height: 200px;
+  width: 100%;
+
+
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 50px;  
+}
+
+
+.main{
+  font-size: 60px;
+  /* text-shadow: 0 3px rgb(80, 80, 80), 3px 0 rgb(82, 82, 82) ; */
+  font-weight: 500;
+  font-family: 'Black Han Sans', sans-serif;
+   
+}
+
+
+.common{
+  margin-bottom: 80px;
+  width: 850px;
+  height: 70px;
+  padding: 10px;
+
+}
+hr{
+  height: 3px;
+  border: none;
+}
+
+.fun1{
+  position: relative;
+  left: 80px;
+  
+}
+.fun1 .main{
+  color:red;
+}
+.fun1 hr{
+  position: relative;
+  bottom: 68px;
+  left: 78px;
+
+  width: 715px;
+  background-color: red;
+}
+
+.fun2{
+  position: relative;
+  left: 610px;
+}
+.fun2 .main{
+  color:orange;
+}
+.fun2 hr{
+  position: relative;
+  bottom: 68px;
+  left: 148px;
+
+  width: 575px;
+  background-color: orange;
+}
+.fun3{
+  position: relative;
+  left: 80px;
+}
+.fun3 .main{
+  color:yellowgreen;
+}
+.fun3 hr{
+  position: relative;
+  bottom: 68px;
+  left: 37px;
+
+  width: 805px;
+  background-color: yellowgreen;
+}
+
+.fun4{
+  position: relative;
+  left: 540px;
+}
+.fun4 .main{
+  color:gold;
+}
+.fun4 hr{
+  position: relative;
+  bottom: 68px;
+  left: 55px;
+
+  width: 765px;
+  background-color:gold;
+}
+
+.fun5{
+  position: relative;
+  left: 50px;
+  margin-bottom: 20px;
+}
+.fun5 .main{
+  color:rgb(188, 188, 248);
+}
+.fun5 hr{
+  position: relative;
+  bottom: 68px;
+  left: 78px;
+
+  width: 955px;
+  background-color: rgb(188, 188, 248);
+}
+
+.fun6{
+  position: relative;
+  left: 490px;
+}
+.fun6 .main{
+  color:dodgerblue;
+}
+.fun6 hr{
+  position: relative;
+  bottom: 68px;
+  left: 30px;
+
+  width: 815px;
+  background-color:dodgerblue;
+}
+
+.fun7{
+
+  position: relative;
+  left: -20px;
+}
+.fun7 .main{
+  color:lightseagreen;
+}
+.fun7 hr{
+  position: relative;
+  bottom: 68px;
+  left: 138px;
+
+  width: 995px;
+  background-color: lightseagreen;
+}
+
+.fun8{
+  position: relative;
+  left: 610px;
+
+}
+.fun8 .main{
+  color:mediumaquamarine;
+}
+.fun8 hr{
+  position: relative;
+  bottom: 68px;
+  left: 150px;
+
+
+  width: 575px;
+  background-color: mediumaquamarine;
+}
+
+.fun9{
+  position: relative;
+  left: 80px;
+}
+.fun9 .main{
+  color:deeppink;
+}
+.fun9 hr{
+  position: relative;
+  bottom: 68px;
+  left: 117px;
+
+  width: 635px;
+  background-color: deeppink;
+}
+
+.fun10{
+  position: relative;
+  left: 610px;
+}
+.fun10 .main{
+  color:lightslategray;
+}
+.fun10 hr{
+  position: relative;
+  bottom: 68px;
+  left: 138px;
+
+  width: 590px;
+  background-color: lightslategray;
+}
+
+
+.fun11{
+
+  position: relative;
+  left: 40px;
+}
+.fun11 .main{
+  color:limegreen;
+}
+.fun11 hr{
+  position: relative;
+  bottom: 68px;
+  left: 128px;
+
+  width: 615px;
+  background-color: limegreen;
+}
+
+#blank{
+  height: 20px;
+}
